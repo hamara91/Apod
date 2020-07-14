@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Astronomy Picture of the Day</title>
+		<link rel="stylesheet" href="ap.css" />
+	</head>
+	<body>
+		<div id="header">
+			<h2>Astronomy Picture of the Day</h2>
+			<div id="divDate">
+				<input type="date" id="inputedDate" />
+				<input type="submit" id="submitDate" value="pesquisar" />
+			</div>
+		</div>
+        <h1 id="img-title"></h1>
+        
+
+		<div id="img-div">
+			<img src="" alt="" id="img-content" />
+			<iframe
+				src=""
+				frameborder="0"
+				id="video-content"
+				class="hide"
+				></iframe>
+			<p id="date"></p>
+		</div>
+		<div>
+		<p id="explanation"></p>
+		<p id="copyright"></p>
+		</div>
+
+		<script src="ap.js"></script>
+		<script src="apget.js"></script>
+	</body>
+</html>
